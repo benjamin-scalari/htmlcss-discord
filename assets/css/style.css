@@ -46,6 +46,18 @@ header{
   color: white;
 }
 
+.button.lilac{
+  background-color: rgb(142, 161, 226);
+  color: white;
+}
+
+.button.big.lilac{
+  position: absolute;
+  left: 40%;
+  top: 125%;
+  translate: ("-50%, -50%");
+}
+
 .button:hover{
   color:cornflowerblue;
 }
@@ -128,7 +140,7 @@ header{
 }
 /* /jumbotron */
 
-
+/* main */
 .right-text{
   float: right;
   width: 20%;
@@ -139,6 +151,10 @@ header{
   float: left;
   width: 20%;
   padding-top: 40px;
+}
+
+.center-text{
+  text-align: center;
 }
 
 .sub-text{
@@ -154,8 +170,30 @@ header{
   float: right;
 }
 
+.center-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .section-2{
   background-color: rgb(246, 246, 246);
   height: 550px;
   padding-top: 50px;
 }
+
+.section-4{
+  background-color: rgb(246, 246, 246);
+  height: 1000px;
+  padding-top: 50px;
+}
+
+.star-text{
+  text-align: center;
+}
+
+.lil-section{
+  padding-top: 25px;
+  position: relative;
+}
+/* /main */
