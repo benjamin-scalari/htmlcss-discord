@@ -184,7 +184,7 @@ header{
 
 .section-4{
   background-color: rgb(246, 246, 246);
-  height: 1000px;
+  height: 875px;
   padding-top: 50px;
 }
 
@@ -197,3 +197,24 @@ header{
   position: relative;
 }
 /* /main */
+
+/* footer */
+footer{
+  background-color: rgb(35, 39, 42);
+  width: 100vw;
+  height: 750px;
+}
+
+.footer-1 h3{
+  color: rgb(114, 137, 218);
+  width: 15%;
+  position: relative;
+}
+
+.language{
+  color: white;
+}
+
+#italy{
+  
+}
