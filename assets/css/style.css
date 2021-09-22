@@ -154,6 +154,8 @@ header{
   float: right;
 }
 
-.wave{
-  background-image: url("../img/wave.svg");
+.section-2{
+  background-color: rgb(246, 246, 246);
+  height: 550px;
+  padding-top: 50px;
 }
