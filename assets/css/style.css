@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  color: #23272a;
+}
+
+header{
+  height: 80px;
+}
+
+.container{
+  width: 80%;
+  max-width: 1180px; 
+  margin: 0 auto;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* bottoni */
+.button{
+  font-size: 14px;
+  color: black;
+  padding: 10px 15px;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 40px;
+}
+
+.button.big{
+  font-size: 18px;
+  padding: 15px 20px;
+}
+
+.button.black{
+  background-color: black;
+  color: white;
+}
+
+.button:hover{
+  color:cornflowerblue;
+}
+/* /bottoni */
+
+/* header */
+header{
+  height: 80px;
+  background-color: #3161E0;
+  line-height: 80px;
+}
+/* /header */
+
+/* logo */
+.logo, .main-nav{
+  float: left;
+}
+
+.logo img{
+  vertical-align: middle;
+}
+
+.main-nav{
+  width: calc(100% - 202px);
+  text-align: center;
+}
+/* /logo */
+
+/* nav */
+.main-nav ul{
+  list-style: none;
+}
+
+.main-nav ul li{
+  padding: 0 15px;
+  display: inline-block;
+}
+
+.main-nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.main-nav ul li a:hover{
+  text-decoration: underline;
+}
+
+#accedi{
+  float: right;
+}
+/* /nav */
+
+/* jumbotron */
+.jumbotron{
+  height: 547px;
+  background-image: url('../img/jumbo.png');
+  background-size: cover;
+}
+
+.jumbotron .container{
+  max-width: 800px;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.jumbotron h1{
+  font-size: 53px;
+  margin-bottom: 40px;
+}
+
+.jumbotron p{
+  margin-bottom: 30px;
+  line-height: 35px;
+}
+
+.jumbotron .button:first-of-type{
+  margin-right: 20px;
+}
+/* /jumbotron */
+
+
+.right-text{
+  float: right;
+  width: 20%;
+  padding-top: 40px;
+}
+
+.left-text{
+  float: left;
+  width: 20%;
+  padding-top: 40px;
+}
+
+.sub-text{
+  font-size: 15px;
+  padding-top: 25px;
+}
+
+.left-images{
+  float: left;
+}
+
+.right-images{
+  float: right;
+}
+
+.wave{
+  background-image: url("../img/wave.svg");
+}
